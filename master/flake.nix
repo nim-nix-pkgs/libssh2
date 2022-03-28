@@ -11,7 +11,6 @@
   inputs.src-libssh2-master.ref   = "refs/heads/master";
   inputs.src-libssh2-master.owner = "ba0f3";
   inputs.src-libssh2-master.repo  = "libssh2.nim";
-  inputs.src-libssh2-master.dir   = "";
   inputs.src-libssh2-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
